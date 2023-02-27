@@ -154,6 +154,7 @@ button:hover {
   .quote-card {
     width: 350px;
     height: 440px;
+    margin-top: 0;
   }
   
   .quote-card picture {
