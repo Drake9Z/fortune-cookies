@@ -32,14 +32,14 @@ h1 {
   flex-direction: column;
   position: relative;
   width: 300px;
-  height: 540px;
+  height: 510px;
   margin-top: 2rem;
   border-radius: 10px;
 }
 
 .quote-card picture {
   width: 300px;
-  height: 540px;
+  height: 510px;
   min-width: 300px;
   max-width: 820px;
 }
@@ -83,14 +83,6 @@ h1 {
   align-self: center;
 }
 
-.quote-card > div > span {
-  display: flex;
-  bottom: 10px;
-  color: white;
-  font-size: 2rem;
-  align-self: center;
-  font-family: 'Dancing Script', cursive;
-}
 
 .quote-card > div > i {
   font-size: 2.5rem;
@@ -102,7 +94,6 @@ button {
   font-family:monospace;
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
   width: 30rem;
   position: relative;
   height: 5rem;
@@ -115,15 +106,27 @@ button {
   font-weight: bold;
 }
 
+.author{
+  position: relative;
+  height: auto;
+  width: auto;
+  display: flex;
+  bottom: 4rem;
+  color: white;
+  font-size: 2.5rem;
+  align-self: center;
+  font-family: 'Dancing Script', cursive;
+}
+
 button:hover {
   box-shadow: inset 0px 0px 25px #ebeaea52;
 }
 
 @media (min-width: 619px) {
   h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     align-self: self-start;
-    margin-left: 20rem;
+    margin-left: 10rem;
   }
 
   .quote-card {
@@ -138,4 +141,31 @@ button:hover {
     max-width: 820px;
   }
 }
+  
 
+@media screen and (min-width: 1000px){
+
+  h1 {
+    font-size: 6rem;
+    align-self: self-start;
+    margin-left: 10rem;
+  }
+
+  .quote-card {
+    width: 350px;
+    height: 440px;
+  }
+  
+  .quote-card picture {
+    width: 350px;
+    height: 440px;
+    min-width: 300px;
+    max-width: 820px;
+  }
+
+  .author{
+    bottom: 4rem;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+  }
+}

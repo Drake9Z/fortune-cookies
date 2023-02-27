@@ -2,6 +2,7 @@ import './App.css'
 import { useState } from 'react'
 import QuoteCard from './components/QuoteCard'
 import phrases from './data/phrases.json'
+import Author from './components/Author'
 
 function App() { 
 
@@ -14,10 +15,12 @@ const changePhrase = () => {
 
   return (
     <div className="App">
-    
       <h1>Fortune Cookies</h1>
       <QuoteCard
       changeB={index}
+      phrasesData = {phrases[index]}
+      />
+      <Author
       phrasesData = {phrases[index]}
       />
       <button onClick={changePhrase}>
