@@ -63,9 +63,9 @@ h1 {
 
 .quote-card > div > p {
   width: 100%;
-  height: 70%;
-  font-size: 4rem;
-  padding: 1rem .5rem;
+  height: 50%;
+  font-size: 3rem;
+  padding: 5rem .5rem;
   color: white;
   font-family: sans-serif;
   text-align: center;
@@ -78,7 +78,8 @@ h1 {
 
 .quote-card > div > div {
   height: 2px;
-  width: 20%;
+  width: 40%;
+  margin-bottom: 1rem;
   background-color: white;
   align-self: center;
 }

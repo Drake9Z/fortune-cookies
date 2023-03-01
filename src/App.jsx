@@ -20,9 +20,6 @@ const changePhrase = () => {
       changeB={index}
       phrasesData = {phrases[index]}
       />
-      <Author
-      phrasesData = {phrases[index]}
-      />
       <button onClick={changePhrase}>
         Probar mi suerte
       </button>
